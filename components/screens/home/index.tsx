@@ -1,4 +1,5 @@
 import { Footer } from "@/components/footer";
+import Geo from "@/components/globe/geo";
 import * as FadeIn from "@/components/motion/staggers/fade";
 import { Posts } from "@/components/posts";
 
@@ -13,6 +14,8 @@ export default function Home() {
             <h1>Rohan Singh (rnsh)</h1>
             <h2>Designer & Developer</h2>
           </div>
+
+          <Footer />
         </div>
       </FadeIn.Item>
       <Spacer />
@@ -36,8 +39,9 @@ export default function Home() {
         <Posts category="examples" />
       </FadeIn.Item>
       <Spacer />
+
       <FadeIn.Item>
-        <Footer />
+        <Geo />
       </FadeIn.Item>
     </FadeIn.Container>
   );
