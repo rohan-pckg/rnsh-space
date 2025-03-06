@@ -17,7 +17,7 @@ export const OpenGraph: Metadata = {
     title: "rohan",
     description: "...",
     images: [`${process.env.NEXT_PUBLIC_SITE_URL}api/og`],
-    siteName: "Sylph",
+    siteName: "rnsh.space",
   },
   twitter: {
     card: "summary_large_image",

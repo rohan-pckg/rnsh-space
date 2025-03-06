@@ -38,7 +38,7 @@ const UTC8Clock = ({ className }: UTC8ClockProps) => {
   return (
     <div className={className}>
       <div>
-        <p className="font-semibold">UTC+8</p>
+        <p className="font-semibold">UTC+5:30</p>
         <p>{formattedTime}</p>
       </div>
     </div>

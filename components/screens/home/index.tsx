@@ -1,7 +1,8 @@
-import { Footer } from "@/components/footer";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar";
 import Geo from "@/components/globe/geo";
 import * as FadeIn from "@/components/motion/staggers/fade";
 import { Posts } from "@/components/posts";
+import { ThemeSwitcher } from "@/components/themeSwitcher";
 
 const Spacer = () => <div style={{ marginTop: "24px" }} />;
 
@@ -10,12 +11,16 @@ export default function Home() {
     <FadeIn.Container>
       <FadeIn.Item>
         <div className="flex justify-between">
+          <Avatar>
+            <AvatarImage src="/pfp.webp" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
           <div>
             <h1>Rohan Singh (rnsh)</h1>
             <h2>Designer & Developer</h2>
           </div>
 
-          <Footer />
+          <ThemeSwitcher />
         </div>
       </FadeIn.Item>
       <Spacer />
