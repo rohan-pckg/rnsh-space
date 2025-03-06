@@ -32,7 +32,7 @@ const Earth = () => {
       devicePixelRatio: 2,
       width: width * 2,
       height: width * 2,
-      phi: 0,
+      phi: 8,
       theta: 0.3,
       dark: 1,
       diffuse: 3,
