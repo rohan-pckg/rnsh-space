@@ -1,5 +1,5 @@
 
-NOTE : This fork of Sylph comes with a minor tweaks and some additional components.
+## NOTE : This fork of Sylph comes with a minor tweaks and some additional components.
 Thank you upstream for making such a beautiful and well thought template <3
 
 
