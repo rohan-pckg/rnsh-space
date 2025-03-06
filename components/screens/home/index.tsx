@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <FadeIn.Container>
       <FadeIn.Item>
-        <div className="flex justify-between">
+        <div className="flex align-middle justify-between items-center">
           <Avatar>
             <AvatarImage src="/pfp.webp" />
             <AvatarFallback>CN</AvatarFallback>
