@@ -2,6 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar";
 import Geo from "@/components/globe/geo";
 import * as FadeIn from "@/components/motion/staggers/fade";
 import { Posts } from "@/components/posts";
+import { Socials } from "@/components/Socials";
 import { ThemeSwitcher } from "@/components/themeSwitcher";
 
 const Spacer = () => <div style={{ marginTop: "24px" }} />;
@@ -16,7 +17,7 @@ export default function Home() {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           <div>
-            <h1>Rohan Singh (rnsh)</h1>
+            <h1 className="text-center">Rohan Singh (rnsh)</h1>
             <h2>Designer & Developer</h2>
           </div>
 
@@ -24,6 +25,7 @@ export default function Home() {
         </div>
       </FadeIn.Item>
       <Spacer />
+
       <FadeIn.Item>
         <p>
           Currently working as a Design Engineer at{" "}
@@ -37,6 +39,15 @@ export default function Home() {
           becoming a great software engineer.
         </p>
       </FadeIn.Item>
+
+      <Spacer />
+
+      <FadeIn.Item>
+        <Socials />
+      </FadeIn.Item>
+
+      <Spacer />
+
       <FadeIn.Item>
         <Posts category="guides" />
       </FadeIn.Item>
