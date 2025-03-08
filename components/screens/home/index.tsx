@@ -11,13 +11,9 @@ export default function Home() {
   return (
     <FadeIn.Container>
       <FadeIn.Item>
-        <div className="flex align-middle justify-between items-center">
-          <Avatar>
-            <AvatarImage src="/pfp.webp" />
-            <AvatarFallback>CN</AvatarFallback>
-          </Avatar>
+        <div className="flex align-middle justify-between">
           <div>
-            <h1 className="text-center">Rohan Singh (rnsh)</h1>
+            <h1>Rohan Singh (rnsh)</h1>
             <h2>Designer & Developer</h2>
           </div>
 
@@ -49,10 +45,10 @@ export default function Home() {
       <Spacer />
 
       <FadeIn.Item>
-        <Posts category="guides" />
+        <Posts category="projects" />
       </FadeIn.Item>
       <FadeIn.Item>
-        <Posts category="examples" />
+        <Posts category="blogs" />
       </FadeIn.Item>
       <Spacer />
 
